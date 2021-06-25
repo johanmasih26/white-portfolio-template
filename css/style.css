@@ -1,0 +1,187 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #nav-bar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .navbar {
+            /* background-image: linear-gradient(to right, #74d1d6, #299399); */
+            width: 100% !important;
+        }
+        
+        .navbar-nav li {
+            padding: 0 10px;
+        }
+        
+        .navbar-nav li a {
+            font-weight: 400;
+            font-size: large;
+            color: #000 !important;
+        }
+        
+        .navbar-nav li a:hover {
+            color: #299399!important;
+            border-bottom: 2px solid #000;
+        }
+        
+        .main-img {
+            width: 500px;
+            height: 370px;
+        }
+        
+        .navbar-brand {
+            font-size: x-large;
+        }
+        
+        #banner {
+            background-image: linear-gradient(to right, #74d1d6, #299399);
+            color: #fff;
+            padding-top: 5%;
+        }
+        
+        .promo-title {
+            font-size: 40px;
+            font-weight: 600px;
+            margin-top: 100px;
+        }
+        
+        .network-img {
+            width: 200px;
+        }
+        
+        .btnservice {
+            width: 200px;
+            height: 60px;
+        }
+        
+        .btnservice:hover {
+            background-color: #299399;
+            border: 2px solid #fff;
+        }
+        
+        .whatwedo::before {
+            content: '';
+            width: 200px;
+            background: #299399;
+            height: 5px;
+            display: block;
+            margin: auto auto;
+            transform: translateY(63px);
+        }
+        
+        .whatwedo::after {
+            content: '';
+            width: 50px;
+            background: #299399;
+            height: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+            transform: translateY(8px);
+        }
+        
+        .clients::before {
+            content: '';
+            width: 200px;
+            background: #299399;
+            height: 5px;
+            display: block;
+            margin: auto auto;
+            transform: translateY(63px);
+        }
+        
+        .clients::after {
+            content: '';
+            width: 50px;
+            background: #299399;
+            height: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+            transform: translateY(8px);
+        }
+        
+        .clientimg {
+            width: 100px;
+            border-radius: 50px;
+            margin-right: 5px;
+        }
+        
+        .clientDetail {
+            display: inline-block;
+            font-size: 20px;
+        }
+        
+        .testimonial {
+            border-left: 4px solid #299399;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        
+        .icon-img {
+            width: 150px;
+            height: 150px;
+        }
+        
+        .social-images {
+            display: inline;
+        }
+        
+        .social-img {
+            width: 100px;
+            height: 100px;
+            transition: 0.5s;
+        }
+        
+        .social-images a:hover img {
+            transform: translateY(-20px);
+        }
+        
+        .contactus::before {
+            content: '';
+            width: 200px;
+            background: #299399;
+            height: 5px;
+            display: block;
+            margin: auto auto;
+            transform: translateY(63px);
+        }
+        
+        .contactus::after {
+            content: '';
+            width: 50px;
+            background: #299399;
+            height: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 100px;
+            transform: translateY(8px);
+        }
+        
+        #social-media {
+            background: #f8f9fa;
+            padding: 100px 0px;
+        }
+        
+        .footer-col {
+            margin-top: 50px;
+        }
+        
+        .footer {
+            background-image: linear-gradient(to right, #74d1d6, #299399);
+        }
+        
+        .footer-row p,
+        h2 {
+            color: #fff;
+        }
+        
+        .footer-logo {}
