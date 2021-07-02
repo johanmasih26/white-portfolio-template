@@ -184,6 +184,64 @@
 }
 
         
+/* skills */
+.skills-h1{
+    margin-bottom: 100px;
+}
+.skills .progress {
+    height: 80px;
+    display: block;
+    background: none;
+  }
+  
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-image: linear-gradient(to right, #74d1d6, #299399);
+
+  }
+  
+.skills-h1::before {
+    content: '';
+    width: 200px;
+    background: #299399;
+    height: 5px;
+    display: block;
+    margin: auto auto;
+    transform: translateY(63px);
+}
+
+.skills-h1::after {
+    content: '';
+    width: 50px;
+    background: #299399;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    transform: translateY(8px);
+}
          
         .choose-us::before {
             content: '';
