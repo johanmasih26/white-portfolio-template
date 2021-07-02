@@ -186,6 +186,9 @@
 /* skills */
 .skills-h1{
     margin-bottom: 100px;
+    font-weight:700;
+    font-style:italic;
+    margin-top: 100px;
 }
 .skills .progress {
     height: 80px;
