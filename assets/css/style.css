@@ -33,7 +33,12 @@
         }
         .navbar-brand {
             font-weight: 600;
-            font-size:30px ;
+       
+            font-size: x-large;
+            
+            font-family: "Poppins", sans-serif;
+            font-style:italic;
+        
   
 
 
@@ -65,13 +70,7 @@
             border-radius: 50%;
         }
         
-        .navbar-brand {
-            font-size: x-large;
-            margin-left:100px;
-           font-family: "Poppins", sans-serif;
-           font-style:italic;
-        }
-        
+         
         .navbar ul{
             margin-right: 10px !important;
         }
