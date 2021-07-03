@@ -22,14 +22,14 @@
         }
         .navbar-sky .navbar-brand{
            
-            transition: 0.5s;
+            transition: 0.8s;
              color:#fff;
         }
         
         
         .navbar-sky .navbar-nav a{
             color:#fff !important;
-            transition: 0.5s;
+            transition: 0.8s;
         }
         .navbar-brand {
             font-weight: 600;
