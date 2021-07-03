@@ -116,6 +116,8 @@
         }
         
         .btn-info{
+          
+           background-image: linear-gradient(to right, #74d1d6, #299399);
             font-size:20px;
             font-weight: 600;
             font-style: italic;
@@ -123,10 +125,10 @@
         }
         .btn-info:hover{
             color:#fff;
-            background-color:#000;
+            background-image:linear-gradient(to right,#000,#000);
             border:2px solid #fff;
             font-style: italic;
-            
+            border-radius: 8px;
             font-size:20px;
         }
         .btn-outline-light{
@@ -369,18 +371,18 @@ opacity:0.7;
             color: #fff;
           }
           
-          .contact .php-email-form {
+          .contact .email-form {
             width: 100%;
             padding: 30px;
             background: #fff;
             box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
           }
           
-          .contact .php-email-form .form-group {
+          .contact .email-form .form-group {
             padding-bottom: 8px;
           }
           
-          .contact .php-email-form .validate {
+          .contact .email-form .validate {
             display: none;
             color: red;
             margin: 0 0 15px 0;
@@ -388,7 +390,7 @@ opacity:0.7;
             font-size: 13px;
           }
           
-          .contact .php-email-form .error-message {
+          .contact .email-form .error-message {
             display: none;
             color: #fff;
             background: #ed3c0d;
@@ -397,11 +399,11 @@ opacity:0.7;
             font-weight: 600;
           }
           
-          .contact .php-email-form .error-message br + br {
+          .contact .email-form .error-message br + br {
             margin-top: 25px;
           }
           
-          .contact .php-email-form .sent-message {
+          .contact .email-form .sent-message {
             display: none;
             color: #fff;
             background: #18d26e;
@@ -410,14 +412,14 @@ opacity:0.7;
             font-weight: 600;
           }
           
-          .contact .php-email-form .loading {
+          .contact .email-form .loading {
             display: none;
             background: #fff;
             text-align: center;
             padding: 15px;
           }
           
-          .contact .php-email-form .loading:before {
+          .contact .email-form .loading:before {
             content: "";
             display: inline-block;
             border-radius: 50%;
@@ -430,17 +432,17 @@ opacity:0.7;
             animation: animate-loading 1s linear infinite;
           }
           
-          .contact .php-email-form input, .contact .php-email-form textarea {
+          .contact .email-form input, .contact .email-form textarea {
             border-radius: 0;
             box-shadow: none;
             font-size: 14px;
           }
           
-          .contact .php-email-form input {
+          .contact .email-form input {
             height: 44px;
           }
           
-          .contact .php-email-form textarea {
+          .contact .email-form textarea {
             padding: 10px 12px;
           }
           
@@ -491,17 +493,41 @@ opacity:0.7;
             padding: 100px 0px;
         }
         
-        .footer-col {
-            margin-top: 50px;
-        }
+        
         
         .footer {
             background-image: linear-gradient(to right, #74d1d6, #299399);
         }
         
-        .footer-row p,
+        .footer p,
         h2 {
             color: #fff;
         }
         
-        .footer-logo {}
+        
+        
+        
+        .social-links a {
+    
+          font-size:20px;
+          display: inline-block;
+          background:#fff;
+          color:#000;
+          line-height:1;
+          padding:8px 0;
+          border-radius:50%;
+          width:36px;
+          height:36px;
+          transition:0.3s;
+          text-align: center;
+          margin-right: 10px;
+        }
+        
+    
+        .social-links a:hover{
+          background-color: rgb(34, 33, 33);
+          color:#fff;
+        }
+        .footer-desc p,a{
+          color:#fff;
+        }
