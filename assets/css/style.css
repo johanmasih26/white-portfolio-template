@@ -22,18 +22,23 @@
         }
         .navbar-sky .navbar-brand{
            
-            transition: 0.5s;
+            transition: 0.8s;
              color:#fff;
         }
         
         
         .navbar-sky .navbar-nav a{
             color:#fff !important;
-            transition: 0.5s;
+            transition: 0.8s;
         }
         .navbar-brand {
             font-weight: 600;
-            font-size:30px ;
+       
+            font-size: x-large;
+            
+            font-family: "Poppins", sans-serif;
+            font-style:italic;
+        
   
 
 
@@ -52,8 +57,9 @@
         }
         
         .navbar-nav li a:hover {
-            color: #299399 !important;
-            border-bottom: 2px solid #000;
+          color:#fff !important;
+          background-color: rgba(0, 0, 0, 0.9);
+          border-radius:5px;
            
         }
         .navbar-nav{
@@ -65,13 +71,7 @@
             border-radius: 50%;
         }
         
-        .navbar-brand {
-            font-size: x-large;
-            margin-left:100px;
-           font-family: "Poppins", sans-serif;
-           font-style:italic;
-        }
-        
+         
         .navbar ul{
             margin-right: 10px !important;
         }
@@ -116,6 +116,8 @@
         }
         
         .btn-info{
+          
+           background-image: linear-gradient(to right, #74d1d6, #299399);
             font-size:20px;
             font-weight: 600;
             font-style: italic;
@@ -123,11 +125,11 @@
         }
         .btn-info:hover{
             color:#fff;
-            background-color:#000;
+            background-image:linear-gradient(to right,#000,#000);
             border:2px solid #fff;
             font-style: italic;
-            
-            font-size:22px;
+            border-radius: 8px;
+            font-size:20px;
         }
         .btn-outline-light{
             /* background-color: rgba(255, 255, 255, 0.3); */
@@ -187,6 +189,9 @@
 /* skills */
 .skills-h1{
     margin-bottom: 100px;
+    font-weight:700;
+    font-style:italic;
+    margin-top: 100px;
 }
 .skills .progress {
     height: 80px;
@@ -242,98 +247,225 @@
     margin-bottom: 60px;
     transform: translateY(8px);
 }
-         
-        .choose-us::before {
-            content: '';
-            width: 200px;
-            background: #299399;
-            height: 5px;
-            display: block;
-            margin: auto auto;
-            transform: translateY(63px);
-        }
+    
+.project-img{
+    width:100%;
+    border-radius:50px;
+    cursor:pointer;
+    height:400px;
+
+}
+
+.project-img:hover{
+opacity:0.7;
+    
+}
+.project-section{
+    margin-top: 180px;
+    margin-bottom:200px;
+}
+
+.project-section h1{
+    margin-bottom:200px;
+    
+}
+
+.project-section p{
+    margin-bottom: 50px;
+}
+
+.project-detail h3{
+    margin-bottom:30px;
+}
+.project-detail{
+    margin-left:50px;
+    margin-top:50px;
+}
+
+.project-buttons{
+    margin-left:50px;
+}
         
-        .whatwedo::after {
-            content: '';
-            width: 50px;
-            background: #299399;
-            height: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 100px;
-            transform: translateY(8px);
-        }
-        .choose-us::after {
-            content: '';
-            width: 50px;
-            background: #299399;
-            height: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 100px;
-            transform: translateY(8px);
-        }
+
         
-        .clients::before {
-            content: '';
-            width: 200px;
-            background: #299399;
-            height: 5px;
-            display: block;
-            margin: auto auto;
-            transform: translateY(63px);
-        }
         
-        .clients::after {
-            content: '';
-            width: 50px;
-            background: #299399;
-            height: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 100px;
-            transform: translateY(8px);
-        }
         
-        .clientimg {
-            width: 100px;
-            border-radius: 50px;
-            margin-right: 5px;
+        .contact-h1{
+            
+    margin-bottom: 100px;
+    font-weight:700;
+    font-style:italic;
+    margin-top: 100px;
         }
-        
-        .clientDetail {
-            display: inline-block;
+        .contact {
+            padding-bottom: 130px;
+            
+          }
+          
+          .contact .info {
+            padding: 30px;
+            background: #fff;
+            width: 100%;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+          }
+          
+          .contact .info i {
             font-size: 20px;
-        }
-        
-        .testimonial {
-            border-left: 4px solid #299399;
-            margin-bottom: 50px;
-            margin-top: 50px;
-        }
-        
-        .icon-img {
-            width: 150px;
-            height: 150px;
-        }
-        
-        .social-images {
-            display: inline;
-        }
-        
-        .social-img {
-            width: 100px;
-            height: 100px;
-            transition: 0.5s;
-        }
-        
-        .social-images a:hover img {
-            transform: translateY(-20px);
-        }
-        
+            color: #149ddd;
+            float: left;
+            width: 44px;
+            height: 44px;
+            background: #dff3fc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+          }
+          
+          .contact .info h4 {
+            padding: 0 0 0 60px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #050d18;
+          }
+          
+          .contact .info p {
+            padding: 0 0 10px 60px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #173b6c;
+          }
+          
+          .contact .info .email p {
+            padding-top: 5px;
+          }
+          
+          .contact .info .social-links {
+            padding-left: 60px;
+          }
+          
+          .contact .info .social-links a {
+            font-size: 18px;
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            line-height: 1;
+            padding: 8px 0;
+            border-radius: 50%;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+            margin-right: 10px;
+          }
+          
+          .contact .info .social-links a:hover {
+            background: #149ddd;
+            color: #fff;
+          }
+          
+          .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+            background: #149ddd;
+            color: #fff;
+          }
+          
+          .contact .email-form {
+            width: 100%;
+            padding: 30px;
+            background: #fff;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+          }
+          
+          .contact .email-form .form-group {
+            padding-bottom: 8px;
+          }
+          
+          .contact .email-form .validate {
+            display: none;
+            color: red;
+            margin: 0 0 15px 0;
+            font-weight: 400;
+            font-size: 13px;
+          }
+          
+          .contact .email-form .error-message {
+            display: none;
+            color: #fff;
+            background: #ed3c0d;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+          }
+          
+          .contact .email-form .error-message br + br {
+            margin-top: 25px;
+          }
+          
+          .contact .email-form .sent-message {
+            display: none;
+            color: #fff;
+            background: #18d26e;
+            text-align: center;
+            padding: 15px;
+            font-weight: 600;
+          }
+          
+          .contact .email-form .loading {
+            display: none;
+            background: #fff;
+            text-align: center;
+            padding: 15px;
+          }
+          
+          .contact .email-form .loading:before {
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px -6px 0;
+            border: 3px solid #18d26e;
+            border-top-color: #eee;
+            -webkit-animation: animate-loading 1s linear infinite;
+            animation: animate-loading 1s linear infinite;
+          }
+          
+          .contact .email-form input, .contact .email-form textarea {
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 14px;
+          }
+          
+          .contact .email-form input {
+            height: 44px;
+          }
+          
+          .contact .email-form textarea {
+            padding: 10px 12px;
+          }
+          
+          
+          @-webkit-keyframes animate-loading {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          
+          @keyframes animate-loading {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+          
+          
         .contactus::before {
             content: '';
             width: 200px;
@@ -361,17 +493,41 @@
             padding: 100px 0px;
         }
         
-        .footer-col {
-            margin-top: 50px;
-        }
+        
         
         .footer {
             background-image: linear-gradient(to right, #74d1d6, #299399);
         }
         
-        .footer-row p,
+        .footer p,
         h2 {
             color: #fff;
         }
         
-        .footer-logo {}
+        
+        
+        
+        .social-links a {
+    
+          font-size:20px;
+          display: inline-block;
+          background:#fff;
+          color:#000;
+          line-height:1;
+          padding:8px 0;
+          border-radius:50%;
+          width:36px;
+          height:36px;
+          transition:0.3s;
+          text-align: center;
+          margin-right: 10px;
+        }
+        
+    
+        .social-links a:hover{
+          background-color: rgb(34, 33, 33);
+          color:#fff;
+        }
+        .footer-desc p,a{
+          color:#fff;
+        }
