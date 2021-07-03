@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendors/icofont/icofont.min.css">
+<!-- <link rel="stylesheet" href="assets/vendors/icofont/icofont.min.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -216,53 +218,83 @@
     <!-- clients say end -->
 
 
-    <!-- social-media starts -->
-    <section id="social-media">
-        <div class="container  text-center">
-            <h1 class="contactus" style="">Contact Us</h1>
-            <div class=" social-images">
-                <a href=""><img src="assets/images/facebook-icon.png" class="img-fluid social-img" alt=""></a>
-                <a href=""><img src="assets/images/instagram-icon.png" class="img-fluid social-img" alt=""></a>
-                <a href=""><img src="assets/images/whatsapp-icon.png" class="img-fluid social-img" alt=""></a>
-                <a href=""><img src="assets/images/twitter-icon.png" class="img-fluid social-img" alt=""></a>
-                <a href=""><img src="assets/images/snapchat-icon.png" class="img-fluid social-img" alt=""></a>
-                <a href=""><img src="assets/images/linkedin-icon.png" class="img-fluid social-img" alt=""></a>
+
+    <section id="contact" class="contact">
+      <div class="container">
+
+        
+        <h1 class="text-center skills-h1" >Contact Me</h1>
+      
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Harryjohn026@gmail.com</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>Johnbhatti26@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 989 692 543 0</p>
+              </div>
+
+
             </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit" class="btn btn-info">Send Message</button></div>
+            </form>
+          </div>
 
         </div>
 
-
-    </section>
-
-    <section class="footer pb-4">
-        <img src="assets/images/wave2.png" class="img-fluid" alt="">
-        <div class="container" >
-            <div class="row footer-row">
-                <div class="col-md-4 footer-col">
-                    <a href="" class="footer-logo">
-                        <h2>BigShop</h2>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsa eaque 
-                      accusantium odit nostrum quod minima beatae est. Eveniet nam distinctio con sectetur 
-                      explicabo debitis hic sed temporibus ut mollitia aperiam.</p>
-                </div>
-                <div class="col-md-4 footer-col">
-                    <p>Contact : Industrial Aria 393 sector Delhi</p>
-                    <p>Phone No. 393993993</p>
-                    <p>Gmail: BigShop@gmail.com</p>
-
-                </div>
-                <div class="col-md-4 footer-col">
-                    <form action="" class="d-inline ">
-                        <input type="text" name="" id="" class="form-control mb-3" placeholder="Enter gmail">
-                        <input type="submit" value="Subscribe" class="btn btn-info">
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
+      </div>
+    </section><!-- End Contact Section -->
 
 
     
