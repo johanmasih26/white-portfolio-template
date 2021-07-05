@@ -1,6 +1,5 @@
 !(function($) {
     "use strict";
-
     if ($('.typed').length) {
         var typed_strings = $(".typed").data('typed-items');
         typed_strings = typed_strings.split(',')
@@ -18,9 +17,6 @@
             $('nav').removeClass('navbar-light');
             $('.navbar-toggler i').addClass('icofont-navigation-menu1');
             $('nav').addClass('navbar-sky');
-
-
-
         } else {
 
             $('.navbar-toggler i').removeClass('icofont-navigation-menu1');
@@ -28,25 +24,25 @@
             $('nav').addClass('navbar-light');
         }
 
+    });
 
-
-
-
-
-
-
-
-        $('.skills-content').waypoint(function() {
-            $('.progress .progress-bar').each(function() {
-                $(this).css("width", $(this).attr("aria-valuenow") + '%');
-            });
-        }, {
-            offset: '80%'
+    $('.skills-content').waypoint(function() {
+        $('.progress .progress-bar').each(function() {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
-
+    }, {
+        offset: '80%'
     });
 
 
+    // Skills section
+    $('.skills-content').waypoint(function() {
+        $('.progress .progress-bar').each(function() {
+            $(this).css("width", $(this).attr("aria-valuenow") + '%');
+        });
+    }, {
+        offset: '80%'
+    });
 
     // Init AOS
     function aos_init() {
