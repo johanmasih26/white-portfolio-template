@@ -296,12 +296,20 @@
         opacity: 0.7;
     }
     
+    .project-row {
+        margin-top: 80px !important;
+    }
+    
     .project-section h1 {
         margin-bottom: 200px;
     }
     
     .project-section p {
         margin-bottom: 50px;
+    }
+    
+    .project-section {
+        padding-top: 20px;
     }
     
     .project-detail h3 {

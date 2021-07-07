@@ -13,7 +13,7 @@
     }
     $(window).scroll(function(e) {
         e.preventDefault();
-        if ($(this).scrollTop() > 550) {
+        if ($(this).scrollTop() > 100) {
             $('nav').removeClass('navbar-light');
             $('.navbar-toggler i').addClass('icofont-navigation-menu1');
             $('nav').addClass('navbar-sky');
